@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import CreateCharacter from "../pages/character/CreateCharacter";
+import CreateCharacter from "../pages/profile/CreateCharacter";
 import NotFound from "../pages/errors/NotFound";
 import About from "../pages/home/About";
 import Contact from "../pages/home/Contact";
@@ -14,6 +14,7 @@ import CharacterRanklist from "../pages/ranklist/CharacterRanklist";
 import ClansRanklist from "../pages/ranklist/ClansRanklist";
 import TeamsRanklist from "../pages/ranklist/TeamsRanklist";
 import VillagesRanklist from "../pages/ranklist/VillagesRanklist";
+import UniqueWeapon from "../pages/weapons/UniqueWeapon";
 
 export default function VisitorRoutes() {
     return (
@@ -66,6 +67,67 @@ export default function VisitorRoutes() {
                     <Contact />
                 }
             />
+
+
+
+
+
+
+            <Route
+                path="/create-new-character"
+                element={
+                    <CreateCharacter />
+                }
+            />
+            <Route
+                path="/create-new-character"
+                element={
+                    <CreateCharacter />
+                }
+            />
+            <Route
+                path="/create-new-character"
+                element={
+                    <CreateCharacter />
+                }
+            />
+            <Route
+                path="/create-new-character"
+                element={
+                    <CreateCharacter />
+                }
+            />
+            <Route
+                path="/create-new-character"
+                element={
+                    <CreateCharacter />
+                }
+            />
+            <Route
+                path="/create-new-character"
+                element={
+                    <CreateCharacter />
+                }
+            />
+            <Route
+                path="/unique-weapons"
+                element={
+                    <UniqueWeapon />
+                }
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
