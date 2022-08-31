@@ -1,0 +1,22 @@
+main {
+    margin: 0 8px 50px 8px;
+    border-radius: 15px;
+    padding: 2px 8px;
+    width: -webkit-fill-available;
+    max-width: 920px;
+    background-color: var(--main-bg);
+    color: var(--main-color);
+    text-shadow: var(--text-shadow);
+    letter-spacing: .55px;
+    box-shadow: var(--box-shadow);
+}
+
+p {
+    filter: var(--drop-shadow);
+}
+
+@media screen and (min-width: 936px) {
+    main {
+        margin: 0 auto 50px auto;
+    }
+}

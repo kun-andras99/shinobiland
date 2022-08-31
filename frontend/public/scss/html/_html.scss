@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    body {
+        background-color: var(--site-bg);
+        font-family: "Nunito", sans-serif;
+        font-size: 15.86px;
+        font-weight: 300;
+        color: var(--site-color);
+        line-height: 1.88;
+    }
+}
+
+ul,
+li {
+    list-style: none;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #bfbfbf;
+}
+
+p:not(:first-child) {
+    margin-block-start: 20px;
+}
+
+input {
+    border: none;
+    padding: 9px 10px 7px 10px;
+    width: fit-content;
+    letter-spacing: .55px;
+    font-family: 'Nunito', sans-serif;
+}
+
+input::placeholder {
+    color: var(--dark-50);
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+input#input {
+    background-color: var(--main-bg);
+    border: 1px solid var(--dark-50);
+    box-shadow: var(--box-shadow);
+}
+
+input#loginput {
+    background-color: var(--log-input-bg);
+    border: 1px solid var(--log-input-br);
+    color: #E5E5E5;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: var(--text-shadow-2);
+    box-shadow: inset var(--log-input-bs);
+    place-self: center;
+}
+
+input#reginput {
+    background-color: var(--reg-input-br);
+    border: 1px solid var(--reg-input-br);
+    color: #E5E5E5;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: var(--text-shadow-2);
+    box-shadow: inset var(--reg-input-bs);
+    place-self: center;
+}
+
+.scroll-to-top {
+    position: fixed;
+
+    bottom: 5px;
+    right: 10px;
+    z-index: 3;
+    transition: all ease-in-out .2s;
+}
+
+.visible-scroll {
+    position: fixed;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: var(--st-top-bg);
+    bottom: 10px !important;
+    left: 10px;
+    z-index: 3;
+    transition: all ease-in-out .2s;
+    display: grid;
+    align-items: center;
+    opacity: .8;
+    justify-content: center;
+    box-shadow: var(--box-shadow);
+
+    >div {
+        >h2 {
+            font-size: 16px;
+            color: var(--st-top-color);
+            font-weight: 600;
+            text-shadow: var(--text-shadow);
+        }
+    }
+}

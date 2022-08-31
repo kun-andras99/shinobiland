@@ -1,0 +1,81 @@
+[{
+  "id": 1,
+  "character_name": "Maggy Wenzel",
+  "game": false
+}, {
+  "id": 2,
+  "character_name": "Lou Odger",
+  "game": true
+}, {
+  "id": 3,
+  "character_name": "Norry O'Leagham",
+  "game": false
+}, {
+  "id": 4,
+  "character_name": "Elwood Clackers",
+  "game": false
+}, {
+  "id": 5,
+  "character_name": "Lynn Anglish",
+  "game": false
+}, {
+  "id": 6,
+  "character_name": "Babette Arboin",
+  "game": false
+}, {
+  "id": 7,
+  "character_name": "Stacia Tompion",
+  "game": true
+}, {
+  "id": 8,
+  "character_name": "Kathryne Towler",
+  "game": false
+}, {
+  "id": 9,
+  "character_name": "Therine Leneve",
+  "game": false
+}, {
+  "id": 10,
+  "character_name": "Loise Edmondson",
+  "game": true
+}, {
+  "id": 11,
+  "character_name": "Kimbell Sposito",
+  "game": true
+}, {
+  "id": 12,
+  "character_name": "Curtis Weadick",
+  "game": false
+}, {
+  "id": 13,
+  "character_name": "Leighton Reinmar",
+  "game": false
+}, {
+  "id": 14,
+  "character_name": "Sarena Pirdy",
+  "game": false
+}, {
+  "id": 15,
+  "character_name": "Ezekiel Rieflin",
+  "game": true
+}, {
+  "id": 16,
+  "character_name": "Sibby Braban",
+  "game": true
+}, {
+  "id": 17,
+  "character_name": "Giraud Gilbey",
+  "game": false
+}, {
+  "id": 18,
+  "character_name": "Nealy Clemintoni",
+  "game": false
+}, {
+  "id": 19,
+  "character_name": "Rosamund Sheber",
+  "game": false
+}, {
+  "id": 20,
+  "character_name": "Lissy Goulborne",
+  "game": false
+}]

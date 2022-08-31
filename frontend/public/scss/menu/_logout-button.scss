@@ -1,0 +1,79 @@
+.visible-logout {
+    transform: none !important;
+    right: calc(50% - 23px);
+    opacity: 1;
+    transform: translate(calc(450px + 70px), 0) !important;
+    visibility: visible;
+    transition: all ease-in-out .2s;
+
+}
+
+.hidden-logout {
+    transform: translate(calc(450px + 70px), 0) !important;
+    right: calc(50% - 39px) !important;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+    transition: all ease-in-out .2s;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+button.logout-button {
+    font-weight: 600;
+    position: fixed;
+    right: calc(50% - 16px);
+    transform: translate(calc(450px + 70px), 0);
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+    background-color: var(--secondary-red);
+    color: var(--primary-red);
+    box-shadow: var(--box-shadow);
+    z-index: 1;
+    opacity: 0.8 !important;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    >h2 {
+        font-size: 16px;
+        color: #dc9191;
+        font-weight: 400;
+        text-shadow: var(--text-shadow);
+        place-self: center;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    button.logout-button {
+        transform: translate(478px, 0) !important;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    button.logout-button {
+        transform: none !important;
+        right: none;
+    }
+
+    .visible-logout {
+        transform: none !important;
+        right: 25px !important;
+        opacity: 1;
+        visibility: visible;
+        transition: all ease-in-out .2s;
+    }
+
+    .hidden-logout {
+        transform: none !important;
+        right: 0px !important;
+        opacity: 0;
+        visibility: hidden;
+        z-index: -1;
+        transition: all ease-in-out .2s;
+    }
+}
