@@ -11,6 +11,9 @@ import Sitemap from "../pages/home/Sitemap";
 import TermsOfUse from "../pages/home/TermsOfUse";
 import Logout from "../pages/profile/Logout";
 import CharacterRanklist from "../pages/ranklist/CharacterRanklist";
+import ClansRanklist from "../pages/ranklist/ClansRanklist";
+import TeamsRanklist from "../pages/ranklist/TeamsRanklist";
+import VillagesRanklist from "../pages/ranklist/VillagesRanklist";
 
 export default function VisitorRoutes() {
     return (
@@ -78,6 +81,27 @@ export default function VisitorRoutes() {
                 path="/characters-ranklist"
                 element={
                     <CharacterRanklist />
+                }
+            />
+
+            <Route
+                path="/teams-ranklist"
+                element={
+                    <TeamsRanklist />
+                }
+            />
+
+            <Route
+                path="/villages-ranklist"
+                element={
+                    <VillagesRanklist />
+                }
+            />
+
+            <Route
+                path="/clans-ranklist"
+                element={
+                    <ClansRanklist />
                 }
             />
 
