@@ -614,6 +614,8 @@ nav#desktop-menu .desktop-menu .desktop-menu-ul > li > ul > li > .submenu-contai
   display: grid;
   color: var(--main-color2);
   text-shadow: var(--text-shadow);
+  border-top: 1px solid rgba(154, 18, 50, 0.4392156863);
+  border-bottom: 1px solid rgba(154, 18, 50, 0.2392156863);
 }
 nav#desktop-menu .desktop-menu .desktop-menu-ul > li > ul > li > .submenu-container > h2 {
   font-size: 15.6px;

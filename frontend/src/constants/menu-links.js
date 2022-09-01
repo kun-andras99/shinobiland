@@ -162,7 +162,7 @@ export const menuLinks = [
             {
                 id: 7,
                 content: "Egyedi jutsuk",
-                to: "/:id/unique-jutsus"
+                to: "/characters/:id/unique-jutsus"
             }
         ]
     },
@@ -176,7 +176,7 @@ export const menuLinks = [
             {
                 id: 1,
                 content: "Közelharci felszerelések",
-                to: "/meele-equipments"
+                to: "/melee-equipments"
             },
             {
                 id: 2,
@@ -191,7 +191,7 @@ export const menuLinks = [
             {
                 id: 4,
                 content: "A Köd Hét Kardja",
-                to: "/sewen-swords"
+                to: "/seven-swords"
             },
             {
                 id: 5,
@@ -201,7 +201,7 @@ export const menuLinks = [
             {
                 id: 6,
                 content: "Egyedi felszerelések",
-                to: "/:id/unique-equipments"
+                to: "/characters/:id/unique-equipments"
             }
         ]
     },

@@ -94,6 +94,8 @@ nav#desktop-menu {
                             display: grid;
                             color: var(--main-color2);
                             text-shadow: var(--text-shadow);
+                            border-top: 1px solid #9a123270;
+                            border-bottom: 1px solid #9a12323d;
 
                             >h2 {
                                 font-size: 15.6px;
